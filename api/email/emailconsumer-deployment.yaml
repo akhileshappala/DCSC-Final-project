@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: email
-          image: akhileshappala11/emailconsumer:latest
+          image: akhileshappala11/emailconsumer:amd64
           imagePullPolicy: Always
           ports:
             - containerPort: 8083

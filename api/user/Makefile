@@ -1,4 +1,4 @@
-VERSION=v1
+VERSION=amd64
 DOCKERUSER=akhileshappala11
 
 build:
