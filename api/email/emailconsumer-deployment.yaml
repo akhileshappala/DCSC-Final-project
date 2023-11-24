@@ -13,22 +13,20 @@ spec:
         app: email
     spec:
       containers:
-      - name: email
-        image: gautam018/emailconsumer:v1
-        imagePullPolicy: Always
-        ports:
-          - containerPort: 8083
-            protocol: TCP
-        env:
-          - name: KAFKA_HOST
-            value: "kafka.pinot-quickstart"
-          - name: KAFKA_PORT
-            value: "9092"
-          - name: KAFKA_ORDERS_TOPIC
-            value: "orders"
-          
-          
-          
+        - name: email
+          image: akhileshappala11/emailconsumer:v1
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8083
+              protocol: TCP
+          env:
+            - name: KAFKA_HOST
+              value: "kafka.pinot-quickstart"
+            - name: KAFKA_PORT
+              value: "9092"
+            - name: KAFKA_ORDERS_TOPIC
+              value: "orders"
+
 ---
 apiVersion: v1
 kind: Service
@@ -39,7 +37,7 @@ spec:
   selector:
     app: email
   ports:
-  - name: http
-    protocol: "TCP"
-    port: 80
-    targetPort: 8083
+    - name: http
+      protocol: "TCP"
+      port: 80
+      targetPort: 8083

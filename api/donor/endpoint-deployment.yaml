@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: donor
-        image: gautam018/donorservice:v1
+        image: akhileshappala11/donorservice:v1
         imagePullPolicy: Always
         ports:
           - containerPort: 8082
