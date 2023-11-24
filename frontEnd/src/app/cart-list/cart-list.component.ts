@@ -17,7 +17,7 @@ export class CartListComponent implements OnInit {
   foodAddedToCart:any;
 
   order: { [x: string]: any; };
-  
+
   ngOnInit(): void {
     console.log("Hello world cart-list.component");
     this.foodAddedToCart = this.totalCart.getCart();
@@ -39,9 +39,9 @@ export class CartListComponent implements OnInit {
     for(var proj in this.foodAddedToCart){
       console.log(this.foodAddedToCart[proj]);
       myOrder[this.foodAddedToCart[proj].food.foodId] = this.foodAddedToCart[proj].quantity;
-      
+
     }
-    
+
 
 
     this.order = {
@@ -50,19 +50,19 @@ export class CartListComponent implements OnInit {
     };
 
     console.log(this.authService.email);
-    
+
     const formData = new FormData();
     formData.append('itemCart',JSON.stringify(myOrder));
     formData.append('emailId',this.authService.email);
 
-    this.http.post('http://34.28.94.134:80/user/orderCartItems',formData).subscribe(response=>{
+    this.http.post('http://35.226.58.225:80/user/orderCartItems',formData).subscribe(response=>{
       console.log(response);
       if(response.hasOwnProperty('status')){
         console.log("checking out...");
         this.isLoading = false;
         this.foodAddedToCart.splice(0);
         this.route.navigate(['/thankyou'])
-        
+
     }else if(response.hasOwnProperty('Error')){
         this.isLoading = false;
         alert(response);
@@ -70,24 +70,24 @@ export class CartListComponent implements OnInit {
         this.foodAddedToCart.splice(0);
         this.route.navigate(['/foodList'])
     }
-      
+
     });
 
     this.foodAddedToCart = [];
 
 
-    
-    
-    
+
+
+
     // var myOrder: { [x: string]: any; };
     // this.foodAddedToCart.forEach((element: any) => {
     //   myOrder[element.food.foodId] = element.quantity;
-      
+
     // });
     // console.log("Hello");
     // console.log(myOrder);
-    
-    
+
+
 
 
   }

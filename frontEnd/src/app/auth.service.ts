@@ -38,7 +38,7 @@ export class AuthService{
         this.email = email;
 
         console.log(this.accountType);
-        
+
 
         const formData = new FormData();
         formData.append('emailId',email);
@@ -48,14 +48,14 @@ export class AuthService{
         if(this.accountType == "user"){
             return this.http.post(
                 // 'http://localhost:5001/user/loginUser',
-                'http://34.28.94.134:80/user/loginUser',
+                'http://35.226.58.225:80/user/loginUser',
                 formData
             );
 
         }
         if(this.accountType == "donor"){
             return this.http.post(
-                'http://35.222.197.250:80/donor/loginDonor',
+                'http://35.239.176.172:80/donor/loginDonor',
                 formData
             );
         }
@@ -70,12 +70,12 @@ export class AuthService{
         formData.append('phoneNumber',details.phoneNumber)
         console.log(details);
         console.log("came here 1234");
-        
+
         return this.http.post(
             // 'http://localhost:5001/user/createUser',
-            'http://34.28.94.134:80/user/createUser',
+            'http://35.226.58.225:80/user/createUser',
             formData
-        );  
+        );
     }
 
 }

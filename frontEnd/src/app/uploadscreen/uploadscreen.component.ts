@@ -70,9 +70,9 @@ export class UploadscreenComponent implements OnInit {
     }
 
     console.log(this.foodItem);
-    
 
-    if(email == null || foodname == null || address== null || pincode==null || veg==null || glutenFree==null 
+
+    if(email == null || foodname == null || address== null || pincode==null || veg==null || glutenFree==null
       || nutsFree==null || dairy==null || quantity==null){
         if(email == null){
           this.isEmailNull = true;
@@ -105,9 +105,9 @@ export class UploadscreenComponent implements OnInit {
         formData.append('isDairyFree', dairy);
         formData.append('quantity', quantity);
 
-        
+
         this.http.post(
-            'http://35.222.197.250:80/donor/addFoodItem',
+            'http://35.239.176.172:80/donor/addFoodItem',
             formData
         ).subscribe(
           (      responseData: { hasOwnProperty: (arg0: string) => any; })=>{
@@ -117,28 +117,21 @@ export class UploadscreenComponent implements OnInit {
                   console.log("Uploaded food. . .");
                   this.isLoading = false;
                   this.route.navigate(['/display'])
-                  
+
               }else if(responseData.hasOwnProperty('Error')){
                   this.isLoading = false;
-                  
+
               }
           },
           (err: any)=>{
                   console.log("Came here");
                   console.log("Error",err);
               }
-          );  
+          );
 
       }
 
 
-
-    
-
-
-    
-    
-    
   }
 
 }

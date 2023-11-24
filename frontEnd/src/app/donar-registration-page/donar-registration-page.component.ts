@@ -56,7 +56,7 @@ export class DonarRegistrationPageComponent implements OnInit {
 
         return this.http.post(
             // 'http://localhost:8082/donor/createDonor',
-            'http://35.222.197.250:80/donor/createDonor',
+            'http://35.239.176.172:80/donor/createDonor',
             formData
         ).subscribe(
           (      responseData: { hasOwnProperty: (arg0: string) => any; })=>{
@@ -67,12 +67,12 @@ export class DonarRegistrationPageComponent implements OnInit {
                   this.notAUser = false;
                   this.isLoading = false;
                   this.router.navigate(['/login'])
-                  
+
               }else if(responseData.hasOwnProperty('Error')){
                   this.isLoading = false;
                   console.log("No account found");
                   this.notAUser = true;
-                  
+
               }
           },
           (      err: any)=>{
@@ -80,7 +80,7 @@ export class DonarRegistrationPageComponent implements OnInit {
                   console.log("Error",err);
               }
           );
-    
+
   }
 
 
