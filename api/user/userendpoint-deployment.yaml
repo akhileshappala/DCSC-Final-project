@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: user
-        image: akhileshappala11/userservice:latest
+        image: akhileshappala11/userservice:v1
         imagePullPolicy: Always
         ports:
           - containerPort: 8081

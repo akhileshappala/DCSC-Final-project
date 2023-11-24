@@ -2,7 +2,7 @@ VERSION=v1
 DOCKERUSER=akhileshappala11
 
 build:
-	docker build -f Dockerfile -t emailconsumer .
+	docker build -f Dockerfile -t emailconsumer . --no-cache=true --platform=linux/amd64
 
 push:
 	docker tag emailconsumer $(DOCKERUSER)/emailconsumer:$(VERSION)
