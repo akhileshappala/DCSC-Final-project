@@ -1,0 +1,421 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/opt/pinot/lib/pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/pinot/plugins/pinot-environment/pinot-azure/pinot-azure-0.12.0-SNAPSHOT-shaded.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/pinot/plugins/pinot-metrics/pinot-yammer/pinot-yammer-0.12.0-SNAPSHOT-shaded.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/pinot/plugins/pinot-metrics/pinot-dropwizard/pinot-dropwizard-0.12.0-SNAPSHOT-shaded.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/pinot/plugins/pinot-input-format/pinot-parquet/pinot-parquet-0.12.0-SNAPSHOT-shaded.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/pinot/plugins/pinot-file-system/pinot-s3/pinot-s3-0.12.0-SNAPSHOT-shaded.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/opt/pinot/plugins/pinot-stream-ingestion/pinot-pulsar/pinot-pulsar-0.12.0-SNAPSHOT-shaded.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+Plugin directories env: /opt/pinot/plugins, parsed directories to load: '[/opt/pinot/plugins]'
+Please use env variable 'plugins.include' to customize plugins to load. Loading all plugins: [/opt/pinot/plugins/pinot-environment/pinot-azure/pinot-azure-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-metrics/pinot-yammer/pinot-yammer-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-metrics/pinot-dropwizard/pinot-dropwizard-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-segment-writer/pinot-segment-writer-file-based/pinot-segment-writer-file-based-0.12.0-SNAPSHOT.jar, /opt/pinot/plugins/pinot-batch-ingestion/pinot-batch-ingestion-standalone/pinot-batch-ingestion-standalone-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-segment-uploader/pinot-segment-uploader-default/pinot-segment-uploader-default-0.12.0-SNAPSHOT.jar, /opt/pinot/plugins/pinot-minion-tasks/pinot-minion-builtin-tasks/pinot-minion-builtin-tasks-0.12.0-SNAPSHOT.jar, /opt/pinot/plugins/pinot-input-format/pinot-protobuf/pinot-protobuf-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-input-format/pinot-thrift/pinot-thrift-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-input-format/pinot-avro/pinot-avro-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-input-format/pinot-parquet/pinot-parquet-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-input-format/pinot-json/pinot-json-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-input-format/pinot-csv/pinot-csv-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-input-format/pinot-confluent-avro/pinot-confluent-avro-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-input-format/pinot-orc/pinot-orc-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-file-system/pinot-adls/pinot-adls-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-file-system/pinot-s3/pinot-s3-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-file-system/pinot-gcs/pinot-gcs-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-file-system/pinot-hdfs/pinot-hdfs-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-stream-ingestion/pinot-pulsar/pinot-pulsar-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-stream-ingestion/pinot-kinesis/pinot-kinesis-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-2.0/pinot-kafka-2.0-0.12.0-SNAPSHOT-shaded.jar, /opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-0.9/pinot-kafka-0.9-0.12.0-SNAPSHOT-shaded.jar]
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-environment/pinot-azure, pluginName: pinot-azure
+Added [pinot-azure] from dir [/opt/pinot/plugins/pinot-environment/pinot-azure] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-metrics/pinot-yammer, pluginName: pinot-yammer
+Added [pinot-yammer] from dir [/opt/pinot/plugins/pinot-metrics/pinot-yammer] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-metrics/pinot-dropwizard, pluginName: pinot-dropwizard
+Added [pinot-dropwizard] from dir [/opt/pinot/plugins/pinot-metrics/pinot-dropwizard] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-segment-writer/pinot-segment-writer-file-based, pluginName: pinot-segment-writer-file-based
+Added [pinot-segment-writer-file-based] from dir [/opt/pinot/plugins/pinot-segment-writer/pinot-segment-writer-file-based] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-batch-ingestion/pinot-batch-ingestion-standalone, pluginName: pinot-batch-ingestion-standalone
+Added [pinot-batch-ingestion-standalone] from dir [/opt/pinot/plugins/pinot-batch-ingestion/pinot-batch-ingestion-standalone] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-segment-uploader/pinot-segment-uploader-default, pluginName: pinot-segment-uploader-default
+Added [pinot-segment-uploader-default] from dir [/opt/pinot/plugins/pinot-segment-uploader/pinot-segment-uploader-default] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-minion-tasks/pinot-minion-builtin-tasks, pluginName: pinot-minion-builtin-tasks
+Added [pinot-minion-builtin-tasks] from dir [/opt/pinot/plugins/pinot-minion-tasks/pinot-minion-builtin-tasks] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-input-format/pinot-protobuf, pluginName: pinot-protobuf
+Added [pinot-protobuf] from dir [/opt/pinot/plugins/pinot-input-format/pinot-protobuf] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-input-format/pinot-thrift, pluginName: pinot-thrift
+Added [pinot-thrift] from dir [/opt/pinot/plugins/pinot-input-format/pinot-thrift] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-input-format/pinot-avro, pluginName: pinot-avro
+Added [pinot-avro] from dir [/opt/pinot/plugins/pinot-input-format/pinot-avro] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-input-format/pinot-parquet, pluginName: pinot-parquet
+Added [pinot-parquet] from dir [/opt/pinot/plugins/pinot-input-format/pinot-parquet] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-input-format/pinot-json, pluginName: pinot-json
+Added [pinot-json] from dir [/opt/pinot/plugins/pinot-input-format/pinot-json] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-input-format/pinot-csv, pluginName: pinot-csv
+Added [pinot-csv] from dir [/opt/pinot/plugins/pinot-input-format/pinot-csv] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-input-format/pinot-confluent-avro, pluginName: pinot-confluent-avro
+Added [pinot-confluent-avro] from dir [/opt/pinot/plugins/pinot-input-format/pinot-confluent-avro] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-input-format/pinot-orc, pluginName: pinot-orc
+Added [pinot-orc] from dir [/opt/pinot/plugins/pinot-input-format/pinot-orc] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-file-system/pinot-adls, pluginName: pinot-adls
+Added [pinot-adls] from dir [/opt/pinot/plugins/pinot-file-system/pinot-adls] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-file-system/pinot-s3, pluginName: pinot-s3
+Added [pinot-s3] from dir [/opt/pinot/plugins/pinot-file-system/pinot-s3] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-file-system/pinot-gcs, pluginName: pinot-gcs
+Added [pinot-gcs] from dir [/opt/pinot/plugins/pinot-file-system/pinot-gcs] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-file-system/pinot-hdfs, pluginName: pinot-hdfs
+Added [pinot-hdfs] from dir [/opt/pinot/plugins/pinot-file-system/pinot-hdfs] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-stream-ingestion/pinot-pulsar, pluginName: pinot-pulsar
+Added [pinot-pulsar] from dir [/opt/pinot/plugins/pinot-stream-ingestion/pinot-pulsar] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-stream-ingestion/pinot-kinesis, pluginName: pinot-kinesis
+Added [pinot-kinesis] from dir [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kinesis] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-2.0, pluginName: pinot-kafka-2.0
+Added [pinot-kafka-2.0] from dir [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-2.0] to final list of plugins to load
+Found plugin, pluginDir: /opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-0.9, pluginName: pinot-kafka-0.9
+Added [pinot-kafka-0.9] from dir [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-0.9] to final list of plugins to load
+#getPluginsToLoad has produced 23 plugins to load
+Trying to load plugin [pinot-protobuf] from location [/opt/pinot/plugins/pinot-input-format/pinot-protobuf]
+Successfully loaded plugin [pinot-protobuf] from jar files: [file:/opt/pinot/plugins/pinot-input-format/pinot-protobuf/pinot-protobuf-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-protobuf] from dir [/opt/pinot/plugins/pinot-input-format/pinot-protobuf]
+Trying to load plugin [pinot-kafka-2.0] from location [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-2.0]
+Successfully loaded plugin [pinot-kafka-2.0] from jar files: [file:/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-2.0/pinot-kafka-2.0-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-kafka-2.0] from dir [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-2.0]
+Trying to load plugin [pinot-avro] from location [/opt/pinot/plugins/pinot-input-format/pinot-avro]
+Successfully loaded plugin [pinot-avro] from jar files: [file:/opt/pinot/plugins/pinot-input-format/pinot-avro/pinot-avro-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-avro] from dir [/opt/pinot/plugins/pinot-input-format/pinot-avro]
+Trying to load plugin [pinot-csv] from location [/opt/pinot/plugins/pinot-input-format/pinot-csv]
+Successfully loaded plugin [pinot-csv] from jar files: [file:/opt/pinot/plugins/pinot-input-format/pinot-csv/pinot-csv-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-csv] from dir [/opt/pinot/plugins/pinot-input-format/pinot-csv]
+Trying to load plugin [pinot-s3] from location [/opt/pinot/plugins/pinot-file-system/pinot-s3]
+Successfully loaded plugin [pinot-s3] from jar files: [file:/opt/pinot/plugins/pinot-file-system/pinot-s3/pinot-s3-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-s3] from dir [/opt/pinot/plugins/pinot-file-system/pinot-s3]
+Trying to load plugin [pinot-yammer] from location [/opt/pinot/plugins/pinot-metrics/pinot-yammer]
+Successfully loaded plugin [pinot-yammer] from jar files: [file:/opt/pinot/plugins/pinot-metrics/pinot-yammer/pinot-yammer-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-yammer] from dir [/opt/pinot/plugins/pinot-metrics/pinot-yammer]
+Trying to load plugin [pinot-segment-uploader-default] from location [/opt/pinot/plugins/pinot-segment-uploader/pinot-segment-uploader-default]
+Successfully loaded plugin [pinot-segment-uploader-default] from jar files: [file:/opt/pinot/plugins/pinot-segment-uploader/pinot-segment-uploader-default/pinot-segment-uploader-default-0.12.0-SNAPSHOT.jar]
+Successfully Loaded plugin [pinot-segment-uploader-default] from dir [/opt/pinot/plugins/pinot-segment-uploader/pinot-segment-uploader-default]
+Trying to load plugin [pinot-batch-ingestion-standalone] from location [/opt/pinot/plugins/pinot-batch-ingestion/pinot-batch-ingestion-standalone]
+Successfully loaded plugin [pinot-batch-ingestion-standalone] from jar files: [file:/opt/pinot/plugins/pinot-batch-ingestion/pinot-batch-ingestion-standalone/pinot-batch-ingestion-standalone-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-batch-ingestion-standalone] from dir [/opt/pinot/plugins/pinot-batch-ingestion/pinot-batch-ingestion-standalone]
+Trying to load plugin [pinot-thrift] from location [/opt/pinot/plugins/pinot-input-format/pinot-thrift]
+Successfully loaded plugin [pinot-thrift] from jar files: [file:/opt/pinot/plugins/pinot-input-format/pinot-thrift/pinot-thrift-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-thrift] from dir [/opt/pinot/plugins/pinot-input-format/pinot-thrift]
+Trying to load plugin [pinot-confluent-avro] from location [/opt/pinot/plugins/pinot-input-format/pinot-confluent-avro]
+Successfully loaded plugin [pinot-confluent-avro] from jar files: [file:/opt/pinot/plugins/pinot-input-format/pinot-confluent-avro/pinot-confluent-avro-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-confluent-avro] from dir [/opt/pinot/plugins/pinot-input-format/pinot-confluent-avro]
+Trying to load plugin [pinot-orc] from location [/opt/pinot/plugins/pinot-input-format/pinot-orc]
+Successfully loaded plugin [pinot-orc] from jar files: [file:/opt/pinot/plugins/pinot-input-format/pinot-orc/pinot-orc-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-orc] from dir [/opt/pinot/plugins/pinot-input-format/pinot-orc]
+Trying to load plugin [pinot-pulsar] from location [/opt/pinot/plugins/pinot-stream-ingestion/pinot-pulsar]
+Successfully loaded plugin [pinot-pulsar] from jar files: [file:/opt/pinot/plugins/pinot-stream-ingestion/pinot-pulsar/pinot-pulsar-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-pulsar] from dir [/opt/pinot/plugins/pinot-stream-ingestion/pinot-pulsar]
+Trying to load plugin [pinot-azure] from location [/opt/pinot/plugins/pinot-environment/pinot-azure]
+Successfully loaded plugin [pinot-azure] from jar files: [file:/opt/pinot/plugins/pinot-environment/pinot-azure/pinot-azure-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-azure] from dir [/opt/pinot/plugins/pinot-environment/pinot-azure]
+Trying to load plugin [pinot-dropwizard] from location [/opt/pinot/plugins/pinot-metrics/pinot-dropwizard]
+Successfully loaded plugin [pinot-dropwizard] from jar files: [file:/opt/pinot/plugins/pinot-metrics/pinot-dropwizard/pinot-dropwizard-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-dropwizard] from dir [/opt/pinot/plugins/pinot-metrics/pinot-dropwizard]
+Trying to load plugin [pinot-gcs] from location [/opt/pinot/plugins/pinot-file-system/pinot-gcs]
+Successfully loaded plugin [pinot-gcs] from jar files: [file:/opt/pinot/plugins/pinot-file-system/pinot-gcs/pinot-gcs-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-gcs] from dir [/opt/pinot/plugins/pinot-file-system/pinot-gcs]
+Trying to load plugin [pinot-hdfs] from location [/opt/pinot/plugins/pinot-file-system/pinot-hdfs]
+Successfully loaded plugin [pinot-hdfs] from jar files: [file:/opt/pinot/plugins/pinot-file-system/pinot-hdfs/pinot-hdfs-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-hdfs] from dir [/opt/pinot/plugins/pinot-file-system/pinot-hdfs]
+Trying to load plugin [pinot-adls] from location [/opt/pinot/plugins/pinot-file-system/pinot-adls]
+Successfully loaded plugin [pinot-adls] from jar files: [file:/opt/pinot/plugins/pinot-file-system/pinot-adls/pinot-adls-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-adls] from dir [/opt/pinot/plugins/pinot-file-system/pinot-adls]
+Trying to load plugin [pinot-kinesis] from location [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kinesis]
+Successfully loaded plugin [pinot-kinesis] from jar files: [file:/opt/pinot/plugins/pinot-stream-ingestion/pinot-kinesis/pinot-kinesis-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-kinesis] from dir [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kinesis]
+Trying to load plugin [pinot-minion-builtin-tasks] from location [/opt/pinot/plugins/pinot-minion-tasks/pinot-minion-builtin-tasks]
+Successfully loaded plugin [pinot-minion-builtin-tasks] from jar files: [file:/opt/pinot/plugins/pinot-minion-tasks/pinot-minion-builtin-tasks/pinot-minion-builtin-tasks-0.12.0-SNAPSHOT.jar]
+Successfully Loaded plugin [pinot-minion-builtin-tasks] from dir [/opt/pinot/plugins/pinot-minion-tasks/pinot-minion-builtin-tasks]
+Trying to load plugin [pinot-json] from location [/opt/pinot/plugins/pinot-input-format/pinot-json]
+Successfully loaded plugin [pinot-json] from jar files: [file:/opt/pinot/plugins/pinot-input-format/pinot-json/pinot-json-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-json] from dir [/opt/pinot/plugins/pinot-input-format/pinot-json]
+Trying to load plugin [pinot-parquet] from location [/opt/pinot/plugins/pinot-input-format/pinot-parquet]
+Successfully loaded plugin [pinot-parquet] from jar files: [file:/opt/pinot/plugins/pinot-input-format/pinot-parquet/pinot-parquet-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-parquet] from dir [/opt/pinot/plugins/pinot-input-format/pinot-parquet]
+Trying to load plugin [pinot-segment-writer-file-based] from location [/opt/pinot/plugins/pinot-segment-writer/pinot-segment-writer-file-based]
+Successfully loaded plugin [pinot-segment-writer-file-based] from jar files: [file:/opt/pinot/plugins/pinot-segment-writer/pinot-segment-writer-file-based/pinot-segment-writer-file-based-0.12.0-SNAPSHOT.jar]
+Successfully Loaded plugin [pinot-segment-writer-file-based] from dir [/opt/pinot/plugins/pinot-segment-writer/pinot-segment-writer-file-based]
+Trying to load plugin [pinot-kafka-0.9] from location [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-0.9]
+Successfully loaded plugin [pinot-kafka-0.9] from jar files: [file:/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-0.9/pinot-kafka-0.9-0.12.0-SNAPSHOT-shaded.jar]
+Successfully Loaded plugin [pinot-kafka-0.9] from dir [/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-0.9]
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/opt/pinot/lib/pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Executing command: StartBroker -zkAddress zookeeper-service:2181 -configFileName /var/pinot/broker/config/pinot-broker.conf
+Executing command: StartServiceManager -clusterName pinot-quickstart -zkAddress zookeeper-service:2181 -port -1 -bootstrapServices []
+Starting a Pinot [SERVICE_MANAGER] at 0.266s since launch
+Registering service status handler
+Skip Starting Pinot Service Manager admin application
+Started Pinot [SERVICE_MANAGER] instance [ServiceManager_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_-1] at 0.268s since launch
+Starting a Pinot [BROKER] at 0.269s since launch
+Trying to start Pinot Broker...
+ZNRecord serializer write size limit: 1024000; ZkClient write size limit: 1024000
+Starting ZkClient AsyncCallback retry thread.
+ZkClient monitor key or type is not provided. Skip monitoring.
+Starting ZkClient event thread.
+Client environment:zookeeper.version=3.6.3--6401e4ad2087061bc6b9f80dec2d69f2e3c8660a, built on 04/08/2021 16:35 GMT
+Client environment:host.name=pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local
+Client environment:java.version=11.0.16
+Client environment:java.vendor=Oracle Corporation
+Client environment:java.home=/usr/local/openjdk-11
+Client environment:java.class.path=/opt/pinot/lib/pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:/opt/pinot/plugins/pinot-environment/pinot-azure/pinot-azure-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-metrics/pinot-yammer/pinot-yammer-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-metrics/pinot-dropwizard/pinot-dropwizard-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-segment-writer/pinot-segment-writer-file-based/pinot-segment-writer-file-based-0.12.0-SNAPSHOT.jar:/opt/pinot/plugins/pinot-batch-ingestion/pinot-batch-ingestion-standalone/pinot-batch-ingestion-standalone-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-segment-uploader/pinot-segment-uploader-default/pinot-segment-uploader-default-0.12.0-SNAPSHOT.jar:/opt/pinot/plugins/pinot-minion-tasks/pinot-minion-builtin-tasks/pinot-minion-builtin-tasks-0.12.0-SNAPSHOT.jar:/opt/pinot/plugins/pinot-input-format/pinot-protobuf/pinot-protobuf-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-input-format/pinot-thrift/pinot-thrift-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-input-format/pinot-avro/pinot-avro-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-input-format/pinot-parquet/pinot-parquet-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-input-format/pinot-json/pinot-json-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-input-format/pinot-csv/pinot-csv-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-input-format/pinot-confluent-avro/pinot-confluent-avro-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-input-format/pinot-orc/pinot-orc-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-file-system/pinot-adls/pinot-adls-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-file-system/pinot-s3/pinot-s3-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-file-system/pinot-gcs/pinot-gcs-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-file-system/pinot-hdfs/pinot-hdfs-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-stream-ingestion/pinot-pulsar/pinot-pulsar-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-stream-ingestion/pinot-kinesis/pinot-kinesis-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-2.0/pinot-kafka-2.0-0.12.0-SNAPSHOT-shaded.jar:/opt/pinot/plugins/pinot-stream-ingestion/pinot-kafka-0.9/pinot-kafka-0.9-0.12.0-SNAPSHOT-shaded.jar
+Client environment:java.library.path=/usr/java/packages/lib:/lib:/usr/lib:/usr/lib64:/lib64
+Client environment:java.io.tmpdir=/tmp
+Client environment:java.compiler=<NA>
+Client environment:os.name=Linux
+Client environment:os.arch=aarch64
+Client environment:os.version=5.15.49-linuxkit
+Client environment:user.name=root
+Client environment:user.home=/root
+Client environment:user.dir=/opt/pinot
+Client environment:os.memory.free=184MB
+Client environment:os.memory.max=1024MB
+Client environment:os.memory.total=258MB
+Initiating client connection, connectString=zookeeper-service:2181 sessionTimeout=30000 watcher=org.apache.helix.zookeeper.impl.client.ZkClient@f4bf21b
+Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation
+jute.maxbuffer value is 1048575 Bytes
+zookeeper.request.timeout value is 0. feature enabled=false
+Opening socket connection to server zookeeper-service/10.108.46.85:2181.
+SASL config status: Will not attempt to authenticate using SASL (unknown error)
+Socket connection established, initiating session, client: /10.1.0.114:48930, server: zookeeper-service/10.108.46.85:2181
+Session establishment complete on server zookeeper-service/10.108.46.85:2181, session id = 0x10004794f600030, negotiated timeout = 30000
+zkclient 0, zookeeper state changed ( SyncConnected )
+zkclient 0, sycnOnNewSession with sessionID 10004794f600030 async return code: OK and proceeds
+Failed to find cluster config for cluster: pinot-quickstart, skipping applying cluster config
+ZkClient AsyncCallback retry thread is interrupted.
+Terminate ZkClient AsyncCallback retry thread.
+Terminate ZkClient event thread.
+Terminate ZkClient event thread.
+Closing zkclient uid:0, zk:State:CONNECTED Timeout:30000 sessionid:0x10004794f600030 local:/10.1.0.114:48930 remoteserver:zookeeper-service/10.108.46.85:2181 lastZxid:97 xid:3 sent:3 recv:3 queuedpkts:0 pendingresp:0 queuedevents:0
+Session: 0x10004794f600030 closed
+Closed zkclient with uid:0
+EventThread shut down for session: 0x10004794f600030
+Starting Pinot broker (Version: 0.12.0-SNAPSHOT)
+Using pinot-protobuf 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-kafka-2.0 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-avro 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-distribution 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-csv 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-s3 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-yammer 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-segment-uploader-default 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-batch-ingestion-standalone 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-thrift 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-confluent-avro 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-orc 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-pulsar 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-azure 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-dropwizard 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-gcs 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-hdfs 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-adls 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-kinesis 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-minion-builtin-tasks 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-json 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-parquet 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-segment-writer-file-based 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Using pinot-kafka-0.9 0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e
+Connecting spectator Helix manager
+ZNRecord serializer write size limit: 1024000; ZkClient write size limit: 1024000
+ZkClient monitor key or type is not provided. Skip monitoring.
+Starting ZkClient AsyncCallback retry thread.
+Initiating client connection, connectString=zookeeper-service:2181 sessionTimeout=30000 watcher=org.apache.helix.zookeeper.impl.client.ZkClient@42651572
+jute.maxbuffer value is 1048575 Bytes
+zookeeper.request.timeout value is 0. feature enabled=false
+Starting ZkClient event thread.
+Opening socket connection to server zookeeper-service/10.108.46.85:2181.
+SASL config status: Will not attempt to authenticate using SASL (unknown error)
+Socket connection established, initiating session, client: /10.1.0.114:48936, server: zookeeper-service/10.108.46.85:2181
+Session establishment complete on server zookeeper-service/10.108.46.85:2181, session id = 0x10004794f600031, negotiated timeout = 30000
+zkclient 1, zookeeper state changed ( SyncConnected )
+zkclient 1, sycnOnNewSession with sessionID 10004794f600031 async return code: OK and proceeds
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/IDEALSTATES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/CLUSTER/pinot-quickstart
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/PARTICIPANT
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/RESOURCE
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/PROPERTYSTORE
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/LIVEINSTANCES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/INSTANCES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/EXTERNALVIEW
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/STATEMODELDEFS
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/MESSAGES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/ERRORS
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/STATUSUPDATES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/HISTORY
+
+ZkClient AsyncCallback retry thread is interrupted.
+Terminate ZkClient AsyncCallback retry thread.
+Terminate ZkClient event thread.
+Terminate ZkClient event thread.
+Closing zkclient uid:1, zk:State:CONNECTED Timeout:30000 sessionid:0x10004794f600031 local:/10.1.0.114:48936 remoteserver:zookeeper-service/10.108.46.85:2181 lastZxid:99 xid:16 sent:16 recv:16 queuedpkts:0 pendingresp:0 queuedevents:0
+Session: 0x10004794f600031 closed
+Closed zkclient with uid:1
+EventThread shut down for session: 0x10004794f600031
+HelixPropertyFactory successfully loaded helix participant properties: {minimum_supported_version.participant=0.4, clustermanager.version=1.0.4, helixmanager.participantHealthReport.reportLatency=60000}
+Create a zk-based cluster manager. ZK connection: zookeeper-service:2181, clusterName: pinot-quickstart, instanceName: Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099, type: SPECTATOR
+load helix-manager properties: {minimum_supported_version.participant=0.4, clustermanager.version=1.0.4, minimum_supported_version.batch_message=0.6.1}
+Registered message handler factory for type: TASK_REPLY, poolSize: 40, factory: org.apache.helix.messaging.handling.AsyncCallbackService@15590102, pool: java.util.concurrent.ThreadPoolExecutor@3d6682e0[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+MBean HelixCallback:Change=IDEAL_STATE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=INSTANCE_CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=RESOURCE_CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CUSTOMIZED_STATE_CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CLUSTER_CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=LIVE_INSTANCE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CURRENT_STATE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=TASK_CURRENT_STATE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CUSTOMIZED_STATE_ROOT,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CUSTOMIZED_STATE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=MESSAGE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=EXTERNAL_VIEW,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CUSTOMIZED_VIEW,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CUSTOMIZED_VIEW_ROOT,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=TARGET_EXTERNAL_VIEW,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=CONTROLLER,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=MESSAGES_CONTROLLER,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixCallback:Change=HEALTH,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+ZNRecord serializer write size limit: 1024000; ZkClient write size limit: 1024000
+ZkClient monitor key or type is not provided. Skip monitoring.
+Starting ZkClient AsyncCallback retry thread.
+Starting ZkClient event thread.
+Initiating client connection, connectString=zookeeper-service:2181 sessionTimeout=30000 watcher=org.apache.helix.zookeeper.impl.client.ZkClient@14b37a59
+jute.maxbuffer value is 1048575 Bytes
+zookeeper.request.timeout value is 0. feature enabled=false
+Opening socket connection to server zookeeper-service/10.108.46.85:2181.
+SASL config status: Will not attempt to authenticate using SASL (unknown error)
+Socket connection established, initiating session, client: /10.1.0.114:48950, server: zookeeper-service/10.108.46.85:2181
+Session establishment complete on server zookeeper-service/10.108.46.85:2181, session id = 0x10004794f600032, negotiated timeout = 30000
+zkclient 2, zookeeper state changed ( SyncConnected )
+zkclient 2, sycnOnNewSession with sessionID 10004794f600032 async return code: OK and proceeds
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/IDEALSTATES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/CLUSTER/pinot-quickstart
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/PARTICIPANT
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/RESOURCE
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/PROPERTYSTORE
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/LIVEINSTANCES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/INSTANCES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/EXTERNALVIEW
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/STATEMODELDEFS
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/MESSAGES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/ERRORS
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/STATUSUPDATES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/HISTORY
+
+ZkClient AsyncCallback retry thread is interrupted.
+Terminate ZkClient AsyncCallback retry thread.
+Terminate ZkClient event thread.
+Terminate ZkClient event thread.
+Closing zkclient uid:2, zk:State:CONNECTED Timeout:30000 sessionid:0x10004794f600032 local:/10.1.0.114:48950 remoteserver:zookeeper-service/10.108.46.85:2181 lastZxid:101 xid:16 sent:16 recv:16 queuedpkts:0 pendingresp:0 queuedevents:0
+Session: 0x10004794f600032 closed
+Closed zkclient with uid:2
+EventThread shut down for session: 0x10004794f600032
+ClusterManager.connect()
+ZNRecord serializer write size limit: 1024000; ZkClient write size limit: 1024000
+Starting ZkClient AsyncCallback retry thread.
+Initiating client connection, connectString=zookeeper-service:2181 sessionTimeout=30000 watcher=org.apache.helix.zookeeper.impl.client.ZkClient@314958be
+Starting ZkClient event thread.
+jute.maxbuffer value is 1048575 Bytes
+zookeeper.request.timeout value is 0. feature enabled=false
+Opening socket connection to server zookeeper-service/10.108.46.85:2181.
+SASL config status: Will not attempt to authenticate using SASL (unknown error)
+Socket connection established, initiating session, client: /10.1.0.114:48962, server: zookeeper-service/10.108.46.85:2181
+Session establishment complete on server zookeeper-service/10.108.46.85:2181, session id = 0x10004794f600033, negotiated timeout = 30000
+zkclient 3, zookeeper state changed ( SyncConnected )
+MBean HelixZkClient:Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been registered.
+MBean HelixZkClient:Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,PATH=Root,Type=SPECTATOR has been registered.
+KeeperState: SyncConnected, instance: Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099, type: SPECTATOR
+Handling new session, session id: 10004794f600033, instance: Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099, instanceTye: SPECTATOR, cluster: pinot-quickstart
+Handle new session, instance: Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099, type: SPECTATOR, session id: 10004794f600033.
+zkclient 3, sycnOnNewSession with sessionID 10004794f600033 async return code: OK and proceeds
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/IDEALSTATES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/CLUSTER/pinot-quickstart
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/PARTICIPANT
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONFIGS/RESOURCE
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/PROPERTYSTORE
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/LIVEINSTANCES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/INSTANCES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/EXTERNALVIEW
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/STATEMODELDEFS
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/MESSAGES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/ERRORS
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/STATUSUPDATES
+Invalid cluster setup for cluster: pinot-quickstart, missing znode path: /pinot-quickstart/CONTROLLER/HISTORY
+
+fail to createClient.
+org.apache.helix.HelixException: Cluster structure is not set up for cluster: pinot-quickstart
+	at org.apache.helix.manager.zk.ZKHelixManager.handleNewSession(ZKHelixManager.java:1385) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.helix.manager.zk.ZKHelixManager.createClient(ZKHelixManager.java:782) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.helix.manager.zk.ZKHelixManager.connect(ZKHelixManager.java:819) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.broker.broker.helix.BaseBrokerStarter.start(BaseBrokerStarter.java:228) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.service.PinotServiceManager.startBroker(PinotServiceManager.java:143) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.service.PinotServiceManager.startRole(PinotServiceManager.java:92) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand$1.lambda$run$0(StartServiceManagerCommand.java:278) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand.startPinotService(StartServiceManagerCommand.java:304) [pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand$1.run(StartServiceManagerCommand.java:278) [pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+fail to connect Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099
+org.apache.helix.HelixException: Cluster structure is not set up for cluster: pinot-quickstart
+	at org.apache.helix.manager.zk.ZKHelixManager.handleNewSession(ZKHelixManager.java:1385) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.helix.manager.zk.ZKHelixManager.createClient(ZKHelixManager.java:782) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.helix.manager.zk.ZKHelixManager.connect(ZKHelixManager.java:819) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.broker.broker.helix.BaseBrokerStarter.start(BaseBrokerStarter.java:228) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.service.PinotServiceManager.startBroker(PinotServiceManager.java:143) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.service.PinotServiceManager.startRole(PinotServiceManager.java:92) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand$1.lambda$run$0(StartServiceManagerCommand.java:278) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand.startPinotService(StartServiceManagerCommand.java:304) [pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand$1.run(StartServiceManagerCommand.java:278) [pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+disconnect Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099(SPECTATOR) from pinot-quickstart
+Shutting down HelixTaskExecutor
+Reset HelixTaskExecutor
+Reset executor for msgType: TASK_REPLY, pool: java.util.concurrent.ThreadPoolExecutor@3d6682e0[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+Shutting down pool: java.util.concurrent.ThreadPoolExecutor@3d6682e0[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+
+Shutdown HelixTaskExecutor finished
+MBean HelixCallback:Change=INSTANCE_CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CLUSTER_CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CUSTOMIZED_VIEW_ROOT,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=RESOURCE_CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CUSTOMIZED_STATE_CONFIG,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CUSTOMIZED_VIEW,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CONTROLLER,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=EXTERNAL_VIEW,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=TASK_CURRENT_STATE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=MESSAGE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CUSTOMIZED_STATE_ROOT,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CUSTOMIZED_STATE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=MESSAGES_CONTROLLER,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=LIVE_INSTANCE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=TARGET_EXTERNAL_VIEW,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=HEALTH,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=CURRENT_STATE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixCallback:Change=IDEAL_STATE,Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+ZkClient AsyncCallback retry thread is interrupted.
+Terminate ZkClient AsyncCallback retry thread.
+Terminate ZkClient event thread.
+Terminate ZkClient event thread.
+Closing zkclient uid:3, zk:State:CONNECTED Timeout:30000 sessionid:0x10004794f600033 local:/10.1.0.114:48962 remoteserver:zookeeper-service/10.108.46.85:2181 lastZxid:103 xid:16 sent:16 recv:16 queuedpkts:0 pendingresp:0 queuedevents:0
+Session: 0x10004794f600033 closed
+EventThread shut down for session: 0x10004794f600033
+MBean HelixZkClient:Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,Type=SPECTATOR has been un-registered.
+MBean HelixZkClient:Key=pinot-quickstart.Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099,PATH=Root,Type=SPECTATOR has been un-registered.
+Closed zkclient with uid:3
+Cluster manager: Broker_pinot-broker-0.pinot-broker-headless.pinot.svc.cluster.local_8099 disconnected
+Failed to start Pinot Broker
+org.apache.helix.HelixException: Cluster structure is not set up for cluster: pinot-quickstart
+	at org.apache.helix.manager.zk.ZKHelixManager.handleNewSession(ZKHelixManager.java:1385) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.helix.manager.zk.ZKHelixManager.createClient(ZKHelixManager.java:782) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.helix.manager.zk.ZKHelixManager.connect(ZKHelixManager.java:819) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.broker.broker.helix.BaseBrokerStarter.start(BaseBrokerStarter.java:228) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.service.PinotServiceManager.startBroker(PinotServiceManager.java:143) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.service.PinotServiceManager.startRole(PinotServiceManager.java:92) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand$1.lambda$run$0(StartServiceManagerCommand.java:278) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand.startPinotService(StartServiceManagerCommand.java:304) [pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand$1.run(StartServiceManagerCommand.java:278) [pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+Failed to start a Pinot [BROKER] at 1.067 since launch
+org.apache.helix.HelixException: Cluster structure is not set up for cluster: pinot-quickstart
+	at org.apache.helix.manager.zk.ZKHelixManager.handleNewSession(ZKHelixManager.java:1385) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.helix.manager.zk.ZKHelixManager.createClient(ZKHelixManager.java:782) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.helix.manager.zk.ZKHelixManager.connect(ZKHelixManager.java:819) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.broker.broker.helix.BaseBrokerStarter.start(BaseBrokerStarter.java:228) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.service.PinotServiceManager.startBroker(PinotServiceManager.java:143) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.service.PinotServiceManager.startRole(PinotServiceManager.java:92) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand$1.lambda$run$0(StartServiceManagerCommand.java:278) ~[pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand.startPinotService(StartServiceManagerCommand.java:304) [pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+	at org.apache.pinot.tools.admin.command.StartServiceManagerCommand$1.run(StartServiceManagerCommand.java:278) [pinot-all-0.12.0-SNAPSHOT-jar-with-dependencies.jar:0.12.0-SNAPSHOT-ecf41be2ecd007853c2db19e1c6a038cf356cb9e]
+Shutting down Pinot Service Manager with all running Pinot instances...
+Shutting down Pinot Service Manager admin application...
+Deregistering service status handler
